@@ -11,10 +11,15 @@ X Education has appointed you to help them select the most promising leads, i.e.
 
 Approach:
 In this case study, we will employ multiple classification models to forecast whether a lead is likely to be classified as a "hot lead." The outlined steps for conducting this case study are detailed as follows:
-Exploratory Data Analysis
-Feature Engineering
-Outlier Analysis
-Model Building
-Model Performance Benchmarking
-Model Performance Evaluation
-Model Diagnosis Using Probability Calibration, ROC AUC Curve, Precision-Recall Curve
+steps = [
+    "Exploratory Data Analysis",
+    "Feature Engineering",
+    "Outlier Analysis",
+    "Model Building",
+    "Model Performance Benchmarking",
+    "Model Performance Evaluation",
+    "Model Diagnosis Using Probability Calibration, ROC AUC Curve, Precision-Recall Curve"
+]
+
+for step in steps:
+    print(step)
